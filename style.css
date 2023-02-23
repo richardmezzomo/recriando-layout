@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 62.5%;
+
+  --fc-title: #3F3D56;
+  --fc-span-primary: #EE24FF;
+  --fc-span-secondary: #828282;
+  --fc-primary: #ECEFF2;
+
+  --bg-primary: var(--fc-title);
+  
+  --ff-title: 'Dosis', sans-serif;
+  --ff-primary: 'Open Sans', sans-serif;
+}
+
+main {
+  display: grid;
+  place-items: center;
+}
